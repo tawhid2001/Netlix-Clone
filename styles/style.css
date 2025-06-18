@@ -2,6 +2,24 @@ body {
   background-color: #000;
   color: #fff;
 }
+
+    /* Main Content Container Styles */
+    .main-content {
+        background-color: #000;
+        min-height: 100vh;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
+
+    /* Update existing section margins for better spacing inside main container */
+    .main-content section {
+        position: relative;
+        z-index: 2;
+    }
+
+
+/* Netflix Landing Page Styles */
 .netflix-navbar {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 20px 4%;
